@@ -1,0 +1,12 @@
+# Пример конфигурации приложения.
+# Скопируй в config.yaml (или .env) и поменяй значения под себя.
+
+server:
+  host: "127.0.0.1"
+  port: 8080
+  mode: "dev"        # dev | prod
+
+# Позже, когда появится хранилище:
+# storage:
+#   driver: "sqlite" # sqlite | postgres | memory
+#   dsn: "school.db"
