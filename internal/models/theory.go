@@ -1,4 +1,8 @@
-// Package models — доменные структуры данных проекта.
-//
-// Здесь описания темы теории (раздел, заголовок, текст). Реализацию пиши сам.
 package models
+
+type Theory struct {
+	ID      int    `json: "id"`
+	Section string `json: "section"`
+	Title   string `json: "title"`
+	Content string `json: "content"`
+}
